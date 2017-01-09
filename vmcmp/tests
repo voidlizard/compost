@@ -1,0 +1,39 @@
+echo "labels"
+
+echo time ./labels
+time ./labels
+
+echo time ./labels-O2
+time ./labels-O2
+
+echo time ./labels-O3
+time ./labels-O3
+
+echo "==="
+
+echo "switch"
+
+echo time ./switch
+time ./switch
+
+echo time ./switch-O2
+time ./switch-O2
+
+echo time ./switch-O3
+time ./switch-O3
+
+echo "==="
+
+echo "call"
+
+echo time ./call
+time ./call
+
+echo time ./call-O2
+time ./call-O2
+
+echo time ./call-O3
+time ./call-O3
+
+echo "==="
+
